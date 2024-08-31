@@ -2,6 +2,12 @@
 
 Funcionalidade: Configurar Produto
 
+#Converte esses ACs para a linguagem Gherkin
+#Critérios de Aceitação:
+#1 – Seleções de cor, tamanho e quantidade devem ser obrigatórios
+#2 – Deve permitir apenas 10 produtos por venda
+#3 –Quando eu clicar no botão “limpar” deve voltar ao estado original
+
 Cenário: Seleções de cor, tamanho e quantidade devem ser obrigatórios
 Dado que eu não tenha escolhido uma cor, tamanho ou quantidade para o produto
 Quando eu clicar em "Comprar"
